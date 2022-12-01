@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Electronics Shop</title>
+    <style>
+        ul{
+            float:center;
+            display:inline;
+            justify-content: center;
+            align-items: center;
+            padding-top: 180px;
+        }
+        ul li {
+            list-style: none;
+            margin-right: 62px ;
+            margin-top: 27px;
+            font-size: 14px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: red;
+            font-family: "Bahnschrift";
+            font-weight: bold;
+            transition: 0.6s ease-in-out;
+            font-size: medium;
+        }
+        ul li a:hover{
+            color: blanchedalmond;
+        }
+        body {
+            background-image: url("img.jpg");
+            background-color: #cccccc;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body>
+        <ul>
+            <li><a href="addproduct.jsp">Add Product</a></li>
+            <li><a href="updateproduct.jsp">Update Product</a></li>
+            <li><a href="deleteproduct.jsp">Delete Product</a></li>
+            <li><a href="../operation/show.jsp">Show Product</a></li>
+            <li><a href="../operation/showlogs.jsp">Show Logs</a></li>
+            <li><a href="../operation/table.jsp">Table Product</a></li>
+            <li><a href="../operation/cur.jsp">Cursor Table</a></li>
+        </ul>
+</body>
+</html>
